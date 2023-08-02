@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bacasime Antique', serif;
+font-family: 'Playfair Display', serif;
+}
+.main_body{
+    width: 100%;
+    height: 100vh;
+}
+.img_holder{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/beachhouse.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Wrapper{
+    width: 600px;
+    height: 300px;
+    background: #ffff;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.542);
+}
+.header_text{
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.header_text h2{
+    font-size: 70px;
+    font-weight: 900;
+    color: #00B4D8;
+    -webkit-text-stroke: 1px #fff;
+}
+.header_text h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #00B4D8;
+    -webkit-text-stroke: 1px #fff;
+}
+.header_text button{
+    padding: 10px 40px 10px 40px;
+    background: #00B4D8;
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
